@@ -9,6 +9,9 @@ public class  Main {
        s1.setname("Lahiru");
        System.out.println(s1.getname());
         
+       
         
+    
+
     }
 }

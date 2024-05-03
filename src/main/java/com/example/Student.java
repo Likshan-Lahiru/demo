@@ -15,12 +15,19 @@ public class Student {
             this.age = age;
             this.address = address;
     }
-    public void setname(String name){
+    public void setName(String name){
             this.name = name;
     }
-    public String getname(){
-        return name;
+    public String getName(){
+        return this.name;
     }
+    public void setName(int age){
+        this.age = age;
+    }
+    public int getAge(){
+        return this.age;
+    }
+    
 
     public void canWritten(){
         System.out.println("Can Written");
